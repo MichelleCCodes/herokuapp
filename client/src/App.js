@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react'
 
 function url(path){
   return process.env.NODE_ENV === "development" ?
-  `http://localhost:1234${path}` : path
+  `http://localhost:1010${path}` : path
 }
 
 function App() {
