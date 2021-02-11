@@ -2,7 +2,6 @@ const dotenv = require('dotenv').config()
 const express = require("express")
 const cors = require('cors')
 const path = require("path") //another package that allows us to combine strings
-const { dirname } = require('path')
 
 const app = express()
 const port = process.env.PORT || 9000
@@ -29,7 +28,6 @@ app.listen(port , ()=> {
 //CORS: cross origin resource sharing - will add in specific headers to 
 //allow passage 
 
-// console.log("Hello there")
 // console.log(__dirname)
 // console.log(__filename)
 // console.log(process.env.USER)
